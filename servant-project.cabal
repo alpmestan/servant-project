@@ -1,0 +1,22 @@
+name:                servant-project
+version:             0.1
+synopsis:            Minimal servant project
+-- description:
+homepage:            https://github.com/alpmestan/servant-project
+license:             BSD3
+license-file:        LICENSE
+author:              Servant User
+maintainer:          servant@user.com
+-- copyright:
+category:            Web
+build-type:          Simple
+extra-source-files:  ChangeLog.md
+cabal-version:       >=1.10
+
+executable servant-project
+  main-is:             Main.hs
+  -- other-modules:
+  -- other-extensions:
+  build-depends:       base >=4.8 && <4.10, servant, servant-server
+  hs-source-dirs:      src
+  default-language:    Haskell2010
